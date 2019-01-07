@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
     <title>Kathmandu University Schedule</title>
 
@@ -36,7 +42,10 @@
               <a class="nav-link js-scroll-trigger" href="#services">Selection2</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Selection3</a>
+              <a class="nav-link js-scroll-trigger" href="#services1">Selection3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Selection4</a>
             </li>
           </ul>
         </div>
@@ -46,7 +55,7 @@
     <header class="bg-primary text-white">
       <div class="container text-center">
         <h1>Welcome To KU Class Scheduler</h1>
-        <p class="lead">Schedule your class as a admin in the most efficient way!</p>
+        <p class="lead">Schedule your class as a admin in the most efficient way for first year students at KU!</p>
       </div>
     </header>
 
@@ -55,7 +64,26 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Section1</h2>
-            <p class="lead">Is it a Winter Sem or an Summer Sem?</p>
+            <p class="lead">Is it a Winter Sem or a Summer Sem?</p>
+        </br>
+
+			<form>
+			  <div class="form-row align-items-center">
+			    <div class="col-auto my-1">
+			      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+			      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+			        <option selected>Choose...</option>
+			        <option value="1">Summer</option>
+			        <option value="2">Winter</option>
+			      </select>
+			    </div>
+			    <div class="col-auto my-1">
+			    </div>
+			    <div class="col-auto my-1">
+			      <button type="submit" class="btn btn-primary">Submit</button>
+			    </div>
+			  </div>
+			</form>
             
           </div>
         </div>
@@ -66,8 +94,19 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
+            <h2>Teacher And Courses</h2>
+            <p class="lead">Fill up the experts teachers along with the subject</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services1" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
             <h2>Teacher Preferences</h2>
-            <p class="lead">Do the teachers have any preference on the teaching subject or the days? If yes, fill up the form</p>
+            <p class="lead">Do the teachers have any preference on the class or the days?</p>
           </div>
         </div>
       </div>
@@ -78,11 +117,31 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Class Available</h2>
-            <p class="lead">Which classes are available? Fill up the form again!</p>
+            <p class="lead">No. Of Classes Available</p>
+            <br>
+	            <div class="qty mt-5">
+	                        <span class="minus bg-dark">-</span>
+	                        <input type="number" class="count" name="qty" value="1">
+	                        <span class="plus bg-dark">+</span>
+	                    </div>
           </div>
         </div>
       </div>
     </section>
+
+
+		<div class="container">
+			<div class="row">
+				<h2>  <div class="col-md-12">
+		            <button type="button" class="btn btn-labeled btn-success">
+		                <span class="btn-label"><i class="glyphicon glyphicon-ok"></i></span>Submit</button>
+		       
+		            <br /></h2>
+			</div>
+		</div>
+
+
+
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
