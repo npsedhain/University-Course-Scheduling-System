@@ -18,21 +18,18 @@ def main():
 	h=range(1,4)
 	p=range(1,4)
 
-	#The utility of instructor i teaching course j : 3 instructors, 3 courses
+	#The utility of instructor i teaching course j : 
 	utility1=[[1,0,0,0],[0,1,0,0],[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]]
 
-	#The utility of instructor i in day t : 3 instructors, 2 days
+	#The utility of instructor i in day t : 
 	utility2=[[1,1,1],[1,1,1],[1,1,0],[0,1,1],[1,1,1],[1,1,1]]
 
-	#The utility of course j in day t : 3 courses, 2 days
+	#The utility of course j in day t : 
 	utility3=[[1,1,1,1],[1,1,1,1],[1,1,1,1],[1,1,1,1]]
 
 
-	#The utility of course j with class p: 3 different classes 3 courses
+	#The utility of course j with class p: 
 	utility4=[[1,1,1],[1,1,1],[1,1,1],[1,1,1]]
-
-
-
 
 
 
